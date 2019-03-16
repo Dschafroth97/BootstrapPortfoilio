@@ -1,3 +1,4 @@
+/* General */
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-image: url(../images/concrete_seamless.png);
@@ -21,9 +22,14 @@ main {
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
-    background-color: #fff
+    background-color: #fff;
+    color: #4aaaa5;
+    font-size: 38px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #efefef;
 }
 
+/* Nav */
 #logo {
     padding: 10px;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -39,4 +45,29 @@ a.nav-link{
 
 #aboutLink{
     border-left: none;
+}
+
+/* About Page */
+
+#aboutImage{
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+/* Portfolio */
+.portImage{
+    margin: 20px auto;
+}
+
+h3{
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    padding: 15px;
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
 }
