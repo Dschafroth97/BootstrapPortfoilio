@@ -66,8 +66,43 @@ h3{
     position: absolute;
     bottom: 30px;
     padding: 15px;
-    width: 100%;
+    width: 91%;
     line-height: 30px;
     margin-bottom: 0;
     font-weight: 300;
+    /* can't figure out how to get the h3 tags to fit conformly to the images, moving on */
 }
+
+/* Contact */
+.form-control{
+    border-radius: 0;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.submit-btn{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #4aaaa5;
+    border: 0;
+}
+
+.submit-btn:hover{
+    opacity: .7;
+}
+
+/* Footer */
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666;
+    clear:  both;
+    border-top: 5px solid #4aaaa5;
+    color: #efefef;
+}
+
+/* footer is stuck in weird spot on portfolio page, not sure why or how to push it, margin didn't help and neither did clears */
