@@ -10,7 +10,8 @@ html{
 }
 
 main {
-    margin: 60px 0;
+    margin-top: 60px;
+    margin-bottom: 200px;
 }
 
 .card {
